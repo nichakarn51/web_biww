@@ -1,0 +1,86 @@
+/* ===== หน้า 2 ===== */
+
+.page2 {
+    background-image: url("BG2.png");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    position: relative;
+}
+
+/* ปุ่มซ้ายบน */
+.top-left {
+    position: absolute;
+    top: 0px;
+    left: 80px;
+}
+
+.top-left img {
+    width: 250px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* ปุ่มขวาบน */
+.top-right {
+    position: absolute;
+    top: 0px;
+    right: 20px;
+}
+
+.top-right img {
+    width: 250px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.top-left img:hover,
+.top-right img:hover {
+    transform: scale(1.05);
+}
+
+/* layout หลัก */
+.container2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 80px;
+}
+
+/* รูปวงรี */
+.profile2 img {
+    width: 320px;
+    height: 420px;
+    border-radius: 50% / 60%;
+    object-fit: cover;
+}
+
+/* กล่องเนื้อหา */
+.content {
+    text-align: center;
+}
+
+.title {
+    background: #f8dbe6;
+    padding: 10px 40px;
+    border-radius: 30px;
+    margin-bottom: 30px;
+}
+
+.title h2 {
+    color: #d94b78;
+}
+
+.description {
+    background: #ffd1dc;
+    padding: 40px;
+    border-radius: 20px;
+    border: 3px solid #f08aaa;
+}
+
+.description p {
+    font-size: 22px;
+    color: #c94f7c;
+}

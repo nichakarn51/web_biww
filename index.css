@@ -1,0 +1,33 @@
+/* รีเซ็ตพื้นฐาน */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* พื้นหลัง */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("BG1.png"); /* ใช้ไฟล์ BG1 ของคุณ */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+}
+
+/* ปุ่มมุมขวาบน */
+.top-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.top-button img {
+    width: 250px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.top-button img:hover {
+    transform: scale(1.05);
+}

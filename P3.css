@@ -1,0 +1,75 @@
+/* ===== หน้า 3 ===== */
+
+.page3 {
+    background-image: url("BG3.png");
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    font-family: Arial, sans-serif;
+    position: relative;
+}
+
+/* ปุ่มซ้ายบน */
+.top-left {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.top-left img {
+    width: 250px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* ปุ่มขวาบน */
+.top-right {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.top-right img {
+    width: 250px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.top-left img:hover,
+.top-right img:hover {
+    transform: scale(1.05);
+}
+
+/* กล่องเนื้อหา */
+.content3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 20px;
+}
+
+/* หัวข้อ */
+.title3 {
+    background: #f8dbe6;
+    padding: 10px 50px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+
+.title3 h2 {
+    color: #d94b78;
+}
+
+/* กล่องข้อมูล */
+.info-box {
+    width: 400px;
+    padding: 12px;
+    background: white;
+    border: 2px solid #f08aaa;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 18px;
+    color: #c94f7c;
+}
